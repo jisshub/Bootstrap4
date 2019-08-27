@@ -144,9 +144,89 @@ COLORS AND BaCKGROUNDS
         <p class="invisible">Hello</p>
 
 
+margins in bootstrap4
+------------------------
+mb-5 -- gives margin bottom a spacing of 3rem.
+
+mb-3 -- gives margin bottom a spacing of 1rem
+
+mb-0 -- no spacing at margin-bottom
+
+mb-1 -- .25rem
+
+mb-2 -- .5rem
+
+mb-4 -- 1.5 rem at margin -bottom
+
+
+top
+-----
+mt-0
+mt-1 -- gives margn top of spacing .25rem
+
+mt-2 -- .5rem
+
+mt-3 -- 1rem
+
+mt-4 -- 1.5rem at margin-top of the element
+
+mt-5 -- 3rem at margin-top of the element.
+
+
+adding both margin-top and bottom.(y axis)
+---------------------------------------
+
+my-0 -- no margin
+my-3 -- gives a margin of 1rem at both top and bottom           of margin.
+
+my-4 
+
+my-5 -- gives a margin of 3rem 
+
+my-2 -- gives a margin of .5 rem.
+
+
+left margin
+------------
+ml-1 -- gives a margin of .5rem at left.
+
+ml-2
+ml-3
 
 
 
+right margin
+
+----------------
+
+mr-0 -- no margin
+
+mr-1 -- gives a margin of .25rem at right margin
+
+mr-2 -- 
+
+mr-3
+mr-4
+
+mr-5 -- gives a margin of 3rem at magin right
+
+
+adding both margin-left and margin-right
+--------------------------------------------
+
+mx-1 -- gives a margin of .5rem at left and right
+
+mx-2, mx-3, mx-4, mx-5
+
+
+margin on all sides
+--------------------------
+
+m-5 -- gives amargin of 3rem on all sides 
+
+m-3
+m-2
+etc................
 
 
 
