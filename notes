@@ -1,0 +1,86 @@
+
+basic typography
+-------------------
+classes
+-------
+
+lead -- to change default style of paragraphs.
+font-weight-bold
+font-ialic
+
+text-lowercase
+text-capitalize
+
+blockquote
+blockquote-footer
+
+text-truncate -- to change to single line paragraphs
+
+list items
+-------------
+list-unstyled - ul
+list-inline - ul
+    list-inline-item -li 
+
+
+
+
+
+
+
+
+
+Text ALignment And Display
+--------------------------
+class = 'text-justify'
+
+text-center
+
+
+tetxt-right
+
+ <!-- ALIGNMENT -->
+    <p class="text-left">Text aligned left</p>
+    <p class="text-center">Text aligned center</p>
+    <p class="text-right">Text aligned right</p>
+
+
+inline , block and inline-block
+--------------------------------
+d-inline
+d-block
+d-inline-block
+
+
+bg
+--------------
+bg-success -green
+bg-danger -red
+bg-dark -dark
+bg-light - light
+
+
+clearfix
+---------------
+class="clearfix"
+
+to clear float, so so elements
+comes after it will be under the floated elements .
+
+
+position
+--------
+
+classes
+-------------------------------------------
+fixed-top -- element fixed at top always we scroll
+sticky-top  -- element start to stick to top when reach the element by scroll
+fixed-bottom
+
+
+
+
+
+
+
+
