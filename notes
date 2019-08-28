@@ -133,7 +133,7 @@ COLORS AND BaCKGROUNDS
         <div class="bg-success">Background Success Color</div>
         <div class="bg-info">Background Info Color</div>
         <div class="bg-warning">Background Warning Color</div>
-        <div class= "bg-danger">Background Danger Color</div>
+        <div class="bg-danger">Background Danger Color</div>
         <div>Background Light Color</div>
         <div class="bg-dark">Background Dark Color</div>
         <div>Background White Color</div>
@@ -196,7 +196,6 @@ ml-3
 
 
 right margin
-
 ----------------
 
 mr-0 -- no margin
@@ -226,8 +225,39 @@ m-5 -- gives amargin of 3rem on all sides
 
 m-3
 m-2
+
 etc................
 
+
+height and widh classes
+---------------------------
+
+h-25 -- gives  aheight of 25% of total height
+h-50
+h-75
+h-100
+
+w-25 -- gives a width of 25% of 100.
+w-50 -- gives a width of 50%
+w-75
+w-100 -- width of 100%.
+
+
+
+
+Border
+---------
+
+Border classes
+-----------------
+border -- gives a border
+border border-success - gives the border and later color the border
+border border-info 
+border border-danger
+
+border rounded   -gives a border radius
+border rounded-top -gives a border radius at top
+border rounded-left
 
 
 
