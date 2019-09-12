@@ -1,0 +1,9 @@
+
+/* changing the breadscrumb speartor icon */
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: grey;
+    content: ">"
+ }
+
+ 
