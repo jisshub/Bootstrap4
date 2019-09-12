@@ -237,7 +237,7 @@
         </table>
 
         <!-- BORDERED TABLE -->
-        <table>
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <th>#</th>
@@ -444,31 +444,97 @@
         <br>
         <br>
 
+        <!-- practice -->
+        <table class="table">
+            <thead class="table-primary">
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+                <tr class="table-success">
+                    <th>1</th>
+                    <td>Jissmon</td>
+                    <td>Jose</td>
+                    <td>Angamaly</td>
+
+                </tr>
+                <tr class="table-danger">
+                    <th>2</th>
+                    <td>Jissmon</td>
+                    <td>Jose</td>
+                    <td>Angamaly</td>
+        
+                </tr>
+                <tr class="table-info">
+                    <th>3</th>
+                    <td>Jissmon</td>
+                    <td>Jose</td>
+                    <td>Angamaly</td>
+        
+                </tr>
+        </table>
+
         <!-- PAGINATION -->
         <nav>
-            <ul>
-                <li>
-                    <a href="#">Previous</a>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
                 </li>
-                <li>
-                    <a href="#">1</a>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
                 </li>
-                <li>
-                    <a href="#">2</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
                 </li>
-                <li>
-                    <a href="#">3</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
                 </li>
-                <li>
-                    <a href="#">Next</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
                 </li>
             </ul>
         </nav>
 
         <!-- PAGINATION CENTERED -->
+        <!-- use justofy-content-center -->
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
 
         <!-- PAGINATION RIGHT -->
+        <nav>
+                <ul class="pagination justify-content-right">
+                    <li class="page-item">
+                        <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
 
 
         <!-- PAGINATION LARGE -->
@@ -478,6 +544,30 @@
 
 
         <!-- WITH ARROWS -->
+        <nav>
+                <ul class="pagination justify-content-left">
+                    <li class="page-item">
+                        <a class="page-link" href="#">
+                            <!-- to use left arrow use entity &laquo -->
+                            <span>&laquo;</span>
+                         
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">
+                            <!-- to use right arrows use entity &raquo -->
+                            <span>&raquo;</span>
+                          
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
 
     </div>
